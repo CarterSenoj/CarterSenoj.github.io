@@ -193,6 +193,71 @@ nav .right a span {
     font-size: 16px;
 }
 
+/* Section 4: Hobbies */
+.hobbies-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.hobbies-section h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.hobby-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hobby-card {
+    background-color: #f8f8f8;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    transition: transform 0.2s ease;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-card img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hobby-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.hobby-card p {
+    min-height: 3em;
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.hobby-card a {
+    margin-top: auto;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 @media(max-width: 850px) {
     /* Section 1: Hero */
     .hero-section .text h2 {
