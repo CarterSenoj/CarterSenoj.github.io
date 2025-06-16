@@ -114,6 +114,7 @@ nav .right a span {
 .skills-section h2 {
     text-align: center;
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .skills-section .text {
@@ -151,6 +152,45 @@ nav .right a span {
     font-size: 18px;
 }
 
+/* Section 3: Education */
+.education-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.education-section h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edu-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.edu-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.edu-content img {
+    width: 250px;
+    height: auto;
+}
+
+.edu-text h3 {
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.edu-text p {
+    margin: 4px 0;
+    font-size: 16px;
+}
 
 @media(max-width: 850px) {
     /* Section 1: Hero */
@@ -208,4 +248,8 @@ nav .right a span {
         font-size: 16px;
     }
 
+    /* Section 3: Education */
+    .education-section {
+        padding: 0 20px;
+    }
 }
