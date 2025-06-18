@@ -262,6 +262,67 @@ nav .right a span {
     text-decoration: none;
 }
 
+/* Section 5: Personal Projects */
+.personal-projects {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.personal-projects h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f8f8f8;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    font-size: 20px;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.project-card a {
+    font-size: 24px;
+    color: var(--accent-color);
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.project-card a:hover {
+    color: var(--text-color);
+}
+
 @media(max-width: 850px) {
     /* Section 1: Hero */
     .hero-section .text h2 {
