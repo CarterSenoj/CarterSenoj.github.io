@@ -314,6 +314,35 @@ nav .right a span {
     color: var(--text-color);
 }
 
+/* Footer */
+.site-footer {
+    background-color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: var(--accent-color);
+}
+
 @media(max-width: 850px) {
     /* Section 1: Hero */
     .hero-section .text h2 {
