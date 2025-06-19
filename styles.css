@@ -43,6 +43,11 @@ nav .left a {
 nav .right a {
     color: var(--text-color);
     margin: 0 10px;
+    transition: color 0.2s ease;
+}
+
+nav .right a:hover {
+    color: var(--accent-color);
 }
 
 nav .right a:last-child {
